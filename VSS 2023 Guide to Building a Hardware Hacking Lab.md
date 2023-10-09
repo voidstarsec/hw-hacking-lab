@@ -9,8 +9,9 @@ The following document aims to outline the minimum requirements for an embedded 
 3. Breadboard/Jumper Wires
 4. Logic Analyzer
 5. Oscilloscope
+6. Magnifying glass
 
-In this list, I will focus on devices that I and a few others regularly use for hardware pen testing and research (big thanks to Jeremy Hong  and Arsenio Merendez for proofreading and adding excellent recommendations!). I will list a range of devices covering various budgets. 
+In this list, I will focus on devices that I and a few others regularly use for hardware pen testing and research (big thanks to Jeremy Hong and Arsenio Merendez for proofreading and adding excellent recommendations!). I will list a range of devices covering various budgets. 
 
 It should be noted that the following recommendations are my opinion, and **none** of the links below are affiliate links or anything of the sort. This guide is to help people build out their first lab, not make money. This guide will also be maintained at the GitHub repository located [here]() - please submit your pull requests with your suggestions and favorite tools!
 # Soldering 
@@ -43,6 +44,8 @@ If you have the funds to spare, the JBC DDPE 2-Tool station is great because it 
 
 ## Hot Air Stations
 
+EDIT: Hot air station and/or hot plates? I tend to use my miniature hot plate more these days. 
+
 ### Low Cost
 
 If you are going for a lower-cost hot air rework station, there are plenty on Amazon. I have used the YIHUA 959D and have had no issues with it. Others have recommended the [QUICK 957D Rework Station](https://www.amazon.com/Quick-957DW-Hot-Station-Watt/dp/B074SBH4G5), which also has excellent reviews!
@@ -58,6 +61,8 @@ Of course, if you are looking to do a _lot_ of SMD rework and reflow on PCBs, yo
 This kit includes an arm, allowing for hands-free operation, as well as a preheater. A preheater is a device used to (as you might have guessed) pre-heat the PCB from below, allowing things to be soldered more easily. 
 
 The full table of all of the recommended kits can be seen below:
+
+Edit: ok I like this table, maybe do one for the Soldering irons too?
 
 | Item | Price | Link | 
 | ---- | ---- | ---- | 
@@ -110,12 +115,13 @@ Regardless of the types of components and targets that you're working on, you wi
 | Fluke 115 | $220 | [Link](https://www.amazon.com/dp/B000OCFFMW/) | 
 
 If you've never used a multimeter before, Sparkfun has a great tutorial [here](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/introduction) that can help get you up to speed and measuring in no time!
-# Microscopes
+# Microscopes/Magnification
 
-When tearing down a target for the first time, you first want to locate and document all of the part numbers. Part numbers and PCB markings can sometimes be challenging to see with the naked eye, so having a cheap benchtop microscope is never a bad idea. These will also come in handy when removing or modifying small components. 
+When tearing down a target for the first time, you first want to locate and document all of the part numbers. Part numbers and PCB markings can sometimes be challenging to see with the naked eye, so having a cheap benchtop microscope or hand held loupe is never a bad idea. These will also come in handy when removing or modifying small components. Hand held loupes are great for quick identification of components. 
 
 | Item | Price | Link | Description | 
 | ---- | ---- | ---- | ---- | 
+| Handheld Jewellers Loupes | $15.00 | [Link](https://www.amazon.com/Jewelers-Portable-Monocular-Magnifier-Magnifying/dp/B0B11NMDHL/ref=sr_1_35?keywords=jewellers+loupe&qid=1696879890&sr=8-35) | Small handheld jewellers loupes, various magnification, useful for part identification | 
 | Plugable USB Microscope | $37.74 | [Link](https://www.amazon.com/Plugable-Microscope-Flexible-Observation-Magnification/dp/B00XNYXQHE) | Small USB compatible microscope, useful for some soldering and part identification, compatible with most desktop operating systems (in my experience) | 
 | AMScope USB Microscope |  $78.99 | [Link](https://amscope.com/products/utp200x020mp?gclid=CjwKCAjwvfmoBhAwEiwAG2tqzD8VGm0ImwB4j8wP7EQEbC8_3Nvp6V2BFZ8PWMiX0qc3qU7_7MoCnBoCvAMQAvD_BwE) | Small USB compatible microscope, useful for some soldering and part identification | 
 | MisVision Trinocular Microscope |  $78.99 | [Link](https://www.aliexpress.us/item/2251832694057535.html?gatewayAdapt=glo2usa4itemAdapt) | Benchtop microscope 7-45x zoom, check out the review [here](https://www.strangeparts.com/a-boy-and-his-microscope-a-love-story/) | 
@@ -211,10 +217,14 @@ So, you have done your initial teardown and identified a non-volatile storage de
 | Easy JTAG | $399.00 | [Link](https://gsmserver.com/en/z3x-easy-jtag-plus-full-set/) | All-purpose flash extraction, one of the few readers on the market to support UFS extraction |
 | Xeltek Superpro | $995.00 | [Link](https://www.xeltek.com/manual-programmers/universal-programmers/xeltekusauniversalicprogrammersuperpro6100/) | Enterprise flash programmer, high quality, sockets for different chips can be pretty expensive |
 
+Comment: There is another silly level here, the Dataman chip readers. Stupid expensive, but they WORK!
+
 In my experience, no flash readout tool works on **everything**. Some tools are better at certain flash types than others. Having a few options in your hardware hacking toolbox is always a good idea if your preferred tool does not support your target device. If I had to pick two devices from the list above, I would choose the FlashCAT and the XGecu T56; you will have a wide range of target chip coverage between those two. 
 # JTAG / Debug Adapters
 
 Perhaps during your teardown, you discovered a set of test points or debug headers that you believe might be for hardware-level debugging, such as JTAG or SWD. If you're trying to get hardware-level debugging working on a target, it is always a good idea to see what OEM tools are available. I've compiled a list below of some of the more generic tools I keep in my toolbox. Most of these are ARM-focused, as many other JTAG tooling for different architectures will often involve purchasing specific hardware/software or utilizing OpenOCD.
+
+Comment: I think this table needs sorting by price like the others.
 
 | Item | Price | Link | Usage |
 | ---- | ---- | ---- | ---- |
