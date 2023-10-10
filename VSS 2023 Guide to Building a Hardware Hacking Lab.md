@@ -86,7 +86,7 @@ The full table of all of the recommended kits can be seen below:
 | JBC DDPE 2-Tool Station | $1700 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1630#DDPE) | 
 | QUICK 957D Rework Station | $125.00 | [Link](https://www.amazon.com/Quick-957DW-Hot-Station-Watt/dp/B074SBH4G5) | 
 | JBC TESE | $2,690 | [Link](https://www.jbctools.com/tese-b-precision-hot-air-station-product-1750.html) | 
-| SRS System SMD Rework Station | %5,750 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1454#SRS)  | 
+| SRS System SMD Rework Station | $5,750 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1454#SRS)  | 
 
 ## Soldering: Practice Kits
 
