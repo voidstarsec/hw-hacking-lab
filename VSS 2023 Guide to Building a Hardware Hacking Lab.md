@@ -11,12 +11,25 @@ The following document aims to outline the minimum requirements for an embedded 
 5. Oscilloscope
 6. Magnifying glass
 
-In this list, I will focus on devices that I and a few others regularly use for hardware pen testing and research (big thanks to Jeremy Hong and Arsenio Merendez for proofreading and adding excellent recommendations!). I will list a range of devices covering various budgets. 
+In this list, I will focus on devices that I and a few others regularly use for hardware pen testing and research. I will list a range of devices covering various budgets. 
 
-It should be noted that the following recommendations are my opinion, and **none** of the links below are affiliate links or anything of the sort. This guide is to help people build out their first lab, not make money. This guide will also be maintained at the GitHub repository located [here]() - please submit your pull requests with your suggestions and favorite tools!
+It should be noted that the following recommendations are my opinion, and **none** of the links below are affiliate links or anything of the sort. This guide is to help people build out their first lab, not make money. This guide will also be maintained at the GitHub repository located [here](https://github.com/voidstarsec/hw-hacking-lab) - please submit your pull requests with your suggestions and favorite tools!
+
+## Contributors
+
+Before we get to the fun stuff, I wanted to give credit to some folks that helped develop this article. Throughout the development of this guide, I was lucky enough to have some really sharp people offer to help me proofread and provide reccomendations for some of the gear listed in this write up, I've included their names/handles below:
+
+- [Jeremy Hong](https://twitter.com/ElectronicsbyJH)
+- [Arsenio Menendez](https://twitter.com/Ascii211)
+- [Stu Kennedy](https://twitter.com/NoobieDog)
+- [Ian Hanschen](https://twitter.com/furan)
+- [Dreg](https://twitter.com/therealdreg)
+
+
 # Soldering 
 
 Whether you are tearing down a new router or looking for a new target to perform fault injection, you will need to solder at some point during your hardware hacking journey. Soldering is the process of joining metal surfaces with "solder"; this creates a conductive connection between the two soldered points. Soldering is useful when populating unused debug pin headers or connecting wires to points on your target circuit board that you wish to interact with. 
+
 ## Soldering Irons
 
 When looking for a new iron, it is essential to keep your goals in mind:
@@ -25,6 +38,7 @@ When looking for a new iron, it is essential to keep your goals in mind:
 - Will you be working with larger/older components that may need a lot of heat to remove?
 
 Ideally, you want an iron with adjustable temperature and removable tips. These can be purchased relatively cheaply from Amazon and other online vendors. I recommend one with an emergency timeout in case you forget to turn off your iron after some late-night soldering. 
+
 ### Low Cost
 
 Ideally, you want something with adjustable temperature and removable tips; below is a very solid starter kit from Amazon, which makes for a good beginner iron. Before buying a more expensive iron, use this iron to learn proper [care and maintenance](https://forum.digikey.com/t/how-to-clean-tin-and-maintain-soldering-iron-tip).
@@ -42,11 +56,13 @@ If you have the funds to spare, the JBC DDPE 2-Tool station is great because it 
 
 - [JBC DDPE 2-Tool Station](https://www.jbctools.com/ddpe-2-tool-precision-rework-station-product-1630.html)
 
-## Hot Air Stations
+## Hot Air Stations / Hot Plates
 
-EDIT: Hot air station and/or hot plates? I tend to use my miniature hot plate more these days. 
+Hot air stations and hot plates can both be used when doing SMD rework. Hot plates work as you might expect, they require surface to surface contact in order to heat the target device, allowing for either solder paste or a traditional iron to be used to bond the solder to the contact pads. These of course have some disadvantages, if you are working with a system that has plastic connectors, housings or is a two sided PCB with components on each side you will not be able to effectively use a hotplate without risking damaging the target. Hot plates can be use din conjunction with a hot air gun in order to "preheat" your target, making component removal easier. 
 
 ### Low Cost
+
+Introductory hot plates are releatively low cost, the [Soiiw Microcomputer Soldering Preheating station](https://www.amazon.com/Soiiw-Microcomputer-Soldering-Preheating-200X200mm/dp/B082H12PPT) is a great place to start as it has built in temperature control and display (helpful for letting others in the lab know that the plate is on!). 
 
 If you are going for a lower-cost hot air rework station, there are plenty on Amazon. I have used the YIHUA 959D and have had no issues with it. Others have recommended the [QUICK 957D Rework Station](https://www.amazon.com/Quick-957DW-Hot-Station-Watt/dp/B074SBH4G5), which also has excellent reviews!
 
@@ -62,10 +78,9 @@ This kit includes an arm, allowing for hands-free operation, as well as a prehea
 
 The full table of all of the recommended kits can be seen below:
 
-Edit: ok I like this table, maybe do one for the Soldering irons too?
-
 | Item | Price | Link | 
 | ---- | ---- | ---- | 
+| Soiiw Microcomputer Soldering Preheating station | $67.99 | [Link](https://www.amazon.com/Soiiw-Microcomputer-Soldering-Preheating-200X200mm/dp/B082H12PPT) | 
 | KSGER T12 Soldering Station | $69.99 | [Link](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5) | 
 | JBC CDS Soldering Station | $595 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1580#CDS) | 
 | JBC DDPE 2-Tool Station | $1700 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1630#DDPE) | 
@@ -103,6 +118,8 @@ Below are some YouTube videos to help you learn how to solder if you've never at
 - [SMD Soldering Tutorial](https://www.youtube.com/watch?v=fYInlAmPnGo)
 - [BGA Reflowing for Absolute Beginners](https://www.youtube.com/watch?v=0zq98wqEZlo)
 
+Hackaday has a great article [here](https://hackaday.com/2023/03/23/working-with-bgas-soldering-reballing-and-rework/) about SMD rework and reballing. 
+
 # Multimeter
 
 Regardless of the types of components and targets that you're working on, you will need a multimeter. This is what you will use for your initial survey of your device for things such as measuring voltage, resistance, and current and checking for continuity. When choosing a multimeter, make sure that you review the available voltage and current ranges and that they match the ranges of your expected targets. Some multimeters will also have an "auto-range" feature, which will attempt to automatically select the appropriate range for measuring voltage/current/resistance, etc. This feature can be helpful when measuring unknown voltages; it will save you a few button presses when measuring points on a target. The two multimeters listed below are the ones that I keep in my toolbox. I have also included different probes sets, allowing smaller pads/pins to be measured. 
@@ -115,6 +132,7 @@ Regardless of the types of components and targets that you're working on, you wi
 | Fluke 115 | $220 | [Link](https://www.amazon.com/dp/B000OCFFMW/) | 
 
 If you've never used a multimeter before, Sparkfun has a great tutorial [here](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/introduction) that can help get you up to speed and measuring in no time!
+
 # Microscopes/Magnification
 
 When tearing down a target for the first time, you first want to locate and document all of the part numbers. Part numbers and PCB markings can sometimes be challenging to see with the naked eye, so having a cheap benchtop microscope or hand held loupe is never a bad idea. These will also come in handy when removing or modifying small components. Hand held loupes are great for quick identification of components. 
@@ -216,23 +234,22 @@ So, you have done your initial teardown and identified a non-volatile storage de
 | XGecu T56 | $199.00 | [Link](https://www.amazon.com/XGecu-Universal-Programmer-Drivers-Adapters/dp/B086K35WZS) | All-purpose flash extraction, SPI, eMMC, NAND, etc | 
 | Easy JTAG | $399.00 | [Link](https://gsmserver.com/en/z3x-easy-jtag-plus-full-set/) | All-purpose flash extraction, one of the few readers on the market to support UFS extraction |
 | Xeltek Superpro | $995.00 | [Link](https://www.xeltek.com/manual-programmers/universal-programmers/xeltekusauniversalicprogrammersuperpro6100/) | Enterprise flash programmer, high quality, sockets for different chips can be pretty expensive |
-
-Comment: There is another silly level here, the Dataman chip readers. Stupid expensive, but they WORK!
+| Dataman 48Pro2 Super Fast Universal ISP Programmer | $1,195.00 | [Link](https://www.dataman.com/dataman-48pro2-super-fast-universal-isp-programmer.html) | Industrial programming tool, expensive, but does consistently work on the supported ICs |
 
 In my experience, no flash readout tool works on **everything**. Some tools are better at certain flash types than others. Having a few options in your hardware hacking toolbox is always a good idea if your preferred tool does not support your target device. If I had to pick two devices from the list above, I would choose the FlashCAT and the XGecu T56; you will have a wide range of target chip coverage between those two. 
+
 # JTAG / Debug Adapters
 
 Perhaps during your teardown, you discovered a set of test points or debug headers that you believe might be for hardware-level debugging, such as JTAG or SWD. If you're trying to get hardware-level debugging working on a target, it is always a good idea to see what OEM tools are available. I've compiled a list below of some of the more generic tools I keep in my toolbox. Most of these are ARM-focused, as many other JTAG tooling for different architectures will often involve purchasing specific hardware/software or utilizing OpenOCD.
 
-Comment: I think this table needs sorting by price like the others.
 
 | Item | Price | Link | Usage |
 | ---- | ---- | ---- | ---- |
-| JLink | $529.12 | [Link](https://www.digikey.com/en/products/detail/segger-microcontroller-systems/8.08.00/2175882) | Extremely sound software support, supports a large amount of ARM chips, has built-in level shifting |
-| STLink | $22.16 | [Link](https://www.digikey.com/en/products/detail/stmicroelectronics/ST-LINK%2FV2/2214535) | Easy to work with, largely focused on STM32, but can be used as a generic SWD adapter with OpenOCD |
-| Black Magic Probe | $74.95 | [Link](https://1bitsquared.com/products/black-magic-probe) | Open source JTAG probe, can be used with OpenOCD | 
 | FT2232H Breakout Board | $14.95 | [Link](https://www.digikey.com/en/products/detail/adafruit-industries-llc/2264/5761217) | Generic interface board, capable of SPI, I2C, UART, etc | 
+| STLink | $22.16 | [Link](https://www.digikey.com/en/products/detail/stmicroelectronics/ST-LINK%2FV2/2214535) | Easy to work with, largely focused on STM32, but can be used as a generic SWD adapter with OpenOCD |
 | Tigard | $49.00 | [Link](https://www.mouser.com/ProductDetail/Securing-Hardware/TIGARD-V1) |  Open source FT2232H-based, multi-protocol, multi-voltage tool for hardware hacking. |
+| Black Magic Probe | $74.95 | [Link](https://1bitsquared.com/products/black-magic-probe) | Open source JTAG probe, can be used with OpenOCD | 
+| JLink | $529.12 | [Link](https://www.digikey.com/en/products/detail/segger-microcontroller-systems/8.08.00/2175882) | Extremely sound software support, supports a large amount of ARM chips, has built-in level shifting |
 | Lauterbach | TBD | [Link](https://www.lauterbach.com/products/debugger/powerdebug-system/powerdebug-x50) | Extremely powerful JTAG tooling that can be purchased with licenses targetting specific architectures/chipsets |
 
 When attempting to utilize a hardware debug mechanism (especially from a black box perspective), there is no "one size fits all" tool. Whether you are accessing a [JTAG](https://wrongbaud.github.io/posts/jtag-hdd/) tap or an [SWD](https://wrongbaud.github.io/posts/stm-xbox-jtag/) peripheral, there are two hurdles that you need to overcome:
@@ -243,6 +260,7 @@ When attempting to utilize a hardware debug mechanism (especially from a black b
 	1. OpenOCD, UrJTAG, OEM Tools, etc
 
 The right tools for the job is critical when looking at a new hardware-level debug peripheral. Make sure that you search for OEM software/hardware and always check the latest OpenOCD commits for similar targets. 
+
 # Power Supplies
 
 When picking a power supply, you need to consider the power requirements of your targets. Be sure to review the voltage and current limitations and choose an appropriate supply based on the targets you will analyze. Some power supplies have options Over-Current Protection (OCP), which is a feature that prevents a power supply from providing more current than it can handle. Some power supplies will also include a [Remote Sense](https://www.ti.com/lit/an/slyt467/slyt467.pdf?ts=1696813801504&ref_url=https%253A%252F%252Fwww.google.com%252F) feature that is used to regulate the output voltage at the target load. This compensates for the voltage drop across the cables connecting the power supply to the target load. 
@@ -269,6 +287,10 @@ Having a few generic embedded interface tools in your toolkit is always a good i
 | Tigard | $49.00 | [Link](https://www.mouser.com/ProductDetail/Securing-Hardware/TIGARD-V1) |  Open source FT2232H-based, multi-protocol, multi-voltage tool for hardware hacking. |
 | Orange Pi 4 LTS | $77.90 | [Link](https://www.amazon.com/Orange-Pi-Rockchip-Computer-Android/dp/B09TKQMXNM?th=1) | Linux based SBC, supported by Armbian| 
 
+# Fault Injection
+
+# RF
+
 # Other Helpful Tools
 
 - Overhead lighting - https://www.amazon.com/dp/B09WMZ568Q
@@ -282,6 +304,6 @@ Having a few generic embedded interface tools in your toolkit is always a good i
 
 # Conclusion
 
-This write-up covered some of the tools required to build your first hardware hacking toolkit. This by no means is an exhaustive list, and I'm sure there are plenty of alternatives to the devices I've listed here (in fact, if you have one that you'd like listed here that I forgot, please shoot me a pull request!). I hope this guide was helpful; I plan to revisit this writeup regularly to update it with new tools. If you think a tool should be added to this guide, feel free to email at contact@voidstarsec.com or on [Twitter](https://twitter.com/wrongbaud). A list of just the components discussed here can be found on this [github repository](), and all pull requests are welcome!
+This write-up covered some of the tools required to build your first hardware hacking toolkit. This by no means is an exhaustive list, and I'm sure there are plenty of alternatives to the devices I've listed here (in fact, if you have one that you'd like listed here that I forgot, please shoot me a pull request!).Also, it should be noted that you don't need **all** of these tools to start hacking on hardware. Sometimes it makes more sense to buy what you need for a given project and save money for nicer equipment later on. I hope this guide was helpful; I plan to revisit this writeup regularly to update it with new tools. If you think a tool should be added to this guide, feel free to email at contact@voidstarsec.com or on [Twitter](https://twitter.com/wrongbaud). A list of just the components discussed here can be found on this [github repository](https://github.com/voidstarsec/hw-hacking-lab), and all pull requests are welcome!
 
 If you are interested in learning more about  hardware-level reverse engineering, check out [our training course](https://voidstarsec.com/training) or [reach out](https://voidstarsec.com/index.html#contact) to us for any consulting needs. If you want to get notified when a new blog post, course, or tool is released, consider signing up for the [mailing list](http://eepurl.com/hSl31f). I only send emails when there are actual posts or course updates. Lastly, you can follow me on [twitter](https://twitter.com/wrongbaud) for various updates on side projects and classes. 
