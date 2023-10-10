@@ -182,7 +182,7 @@ The MSO5354 is an excellent deal for this line, especially considering the 350MH
 
 Here is a similar specification table from the SIGLENT SDS2000 line:
 
-![](images/rigol.png)
+![](images/siglent.png)
 
 The Siglent and the Rigol have great options for the prices listed above. Make sure that you pick an appropriate scope per the types of targets you anticipate analyzing. 
 
