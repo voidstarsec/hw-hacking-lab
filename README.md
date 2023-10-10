@@ -2,7 +2,7 @@
 
 One of the most common questions that I get during a [training](https://voidstarsec.com/training) is - "What do we need to build up an initial hardware hacking lab." Of course, the answer to this question can be heavily tailored based on the goals of the team and their targets, but I wanted to attempt documenting what would make for a good starter lab. 
 
-The purpose of this repository is to outline some of the basic equipment needed to begin reverse engineering embedded systems. You can find the entire write-up [here]() or you can look at the individual folders for specific content. These README files will be added to the wiki [here]() for future reference (and will be updated as people provide PRs with more info!)
+The purpose of this repository is to outline some of the basic equipment needed to begin reverse engineering embedded systems. You can find the entire write-up [here]() or you can look at the individual folders for specific content. These README files will be added to the wiki [here](https://github.com/voidstarsec/hw-hacking-lab/wiki) for future reference (and will be updated as people provide PRs with more info!)
 
 It should be noted that the following recommendations are my opinion, and **none** of the links below are affiliate links or anything of the sort. This guide is to help people build out their first lab, not make money. 
 
