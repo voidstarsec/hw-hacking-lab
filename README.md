@@ -28,5 +28,6 @@ Before we get to the fun stuff, I wanted to give credit to some folks that helpe
 - [Stu Kennedy](https://twitter.com/NoobieDog)
 - [Ian Hanschen](https://twitter.com/furan)
 - [Dreg](https://twitter.com/therealdreg)
+- [Jaseg](@jaseg)
 
 
