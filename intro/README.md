@@ -17,7 +17,7 @@ It should be noted that the following recommendations are my opinion, and **none
 
 ## Contributors
 
-Before we get to the fun stuff, I wanted to give credit to some folks that helped develop this article. Throughout the development of this guide, I was lucky enough to have some really sharp people offer to help me proofread and provide reccomendations for some of the gear listed in this write up, I've included their names/handles below:
+Before we get to the fun stuff, I wanted to give credit to some folks that helped develop this article. Throughout the development of this guide, I was lucky enough to have some really sharp people offer to help me proofread and provide recommendations for some of the gear listed in this write up, I've included their names/handles below:
 
 - [Jeremy Hong](https://twitter.com/ElectronicsbyJH)
 - [Arsenio Menendez](https://twitter.com/Ascii211)
