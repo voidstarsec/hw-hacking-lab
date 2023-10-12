@@ -30,7 +30,7 @@ If you have the funds to spare, the JBC DDPE 2-Tool station is great because it 
 
 ## Hot Air Stations / Hot Plates
 
-Hot air stations and hot plates can both be used when doing SMD rework. Hot plates work as you might expect, they require surface to surface contact in order to heat the target device, allowing for either solder paste or a traditional iron to be used to bond the solder to the contact pads. These of course have some disadvantages, if you are working with a system that has plastic connectors, housings or is a two sided PCB with components on each side you will not be able to effectively use a hotplate without risking damaging the target. Hot plates can be use din conjunction with a hot air gun in order to "preheat" your target, making component removal easier. 
+Hot air stations and hot plates can both be used when doing SMD rework. Hot plates work as you might expect, they require surface to surface contact in order to heat the target device, allowing for either solder paste or a traditional iron to be used to bond the solder to the contact pads. These of course have some disadvantages, if you are working with a system that has plastic connectors, housings or is a two sided PCB with components on each side you will not be able to effectively use a hotplate without risking damaging the target. Hot plates can be used in conjunction with a hot air gun in order to "preheat" your target, making component removal easier. 
 
 ### Low Cost
 
