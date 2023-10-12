@@ -17,7 +17,7 @@ It should be noted that the following recommendations are my opinion, and **none
 
 ## Contributors
 
-Before we get to the fun stuff, I wanted to give credit to some folks that helped develop this article. Throughout the development of this guide, I was lucky enough to have some really sharp people offer to help me proofread and provide reccomendations for some of the gear listed in this write up, I've included their names/handles below:
+Before we get to the fun stuff, I wanted to give credit to some folks that helped develop this article. Throughout the development of this guide, I was lucky enough to have some really sharp people offer to help me proofread and provide recommendations for some of the gear listed in this write up, I've included their names/handles below:
 
 - [Jeremy Hong](https://twitter.com/ElectronicsbyJH)
 - [Arsenio Menendez](https://twitter.com/Ascii211)
@@ -43,7 +43,7 @@ If you're looking for something more traditional, I also have built a handful of
 
 The last thing that you want to happen is for you to accidentally destroy a device with static electricity, In order to avoid this, it is always a good idea to get an ESD wrist strap or an ESD protective mat. 
 
-**Note:** Not all silicon mats that you will find on Amazon are actually anti-static, please make sure that you read the description of the mat that you are going to purchase if ESD protection is a high priority for your workspace (which it should be!)
+**Note:** Not all silicone mats that you will find on Amazon are actually anti-static, please make sure that you read the description of the mat that you are going to purchase if ESD protection is a high priority for your workspace (which it should be!)
 
 | Item | Price | Link | 
 | ---- | ---- | ---- | 
