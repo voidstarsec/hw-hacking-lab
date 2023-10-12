@@ -10,6 +10,11 @@ It should be noted that the following recommendations are my opinion, and **none
 
 - Coming Soon!
 
+# WIP Sections / TODO
+
+- [ ] Fault Injection
+- [ ] RF
+
 # Contributions / Pull Requests
 
 Is there equipment that you think should be added? Do you have opinions on the equipment listed? Submit a PR with your modifications and we'll integrate it into the wiki!
