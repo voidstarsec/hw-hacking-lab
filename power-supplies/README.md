@@ -10,5 +10,6 @@ When picking a power supply, you need to consider the power requirements of your
 | Siglent SPD1168X | $265.00 | [Link](https://www.digikey.com/en/products/detail/siglent-technologies-na,-inc/SPD1168X/10455220) | Power supply with programmable output and voltage sensing, also SCPI interface | 
 | Rigol DP832 | $399.00 | [Link]() | Three channel power supply (30V/3A || 30V/3A, 5V/3A) 
 | Keysight E36233A 400W Dual Output Supply | $3,569 | [Link](https://www.keysight.com/us/en/options/E36233A/400w-autoranging-dual-output-power-supply-30v-20a.html) | High wattage dual output supply, 30V/20A/400W, SCPI interface |
+| BK Precision 9140 32V / 8A / 300W Triple-output Bench Power Supply | $1,940 | [Link](https://www.bkprecision.com/products/power-supplies/9140) | High current, high power, Ethernet/LXI interface, three outputs, compact |
 
 
