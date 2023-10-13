@@ -26,7 +26,7 @@ An excellent introductory scope can be purchased for ~$500; all big manufacturer
 
 Below are some specifications from the RIGOL MSO5000 line:
 
-![[Pasted image 20231005200002.png]]
+![Image](images/rigol.png)
 
 The MSO5354 is an excellent deal for this line, especially considering the 350MHz bandwidth and the 8GSa/s sampling rate. I have this in my lab and use it regularly. 
 
@@ -34,7 +34,7 @@ The MSO5354 is an excellent deal for this line, especially considering the 350MH
 
 Here is a similar specification table from the SIGLENT SDS2000 line:
 
-![[Pasted image 20231005200536.png]]
+![Image](images/siglent.png)
 
 The Siglent and the Rigol have great options for the prices listed above. Make sure that you pick an appropriate scope per the types of targets you anticipate analyzing. 
 
