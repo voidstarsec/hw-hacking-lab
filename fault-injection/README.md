@@ -6,7 +6,7 @@ By causing momentary voltage modulations (either above or below the expected vol
 
 When it comes to FI, I think that [Furrtek](https://twitter.com/furrtek) explained it best here:
 
-![images/glitch.gif]
+![Image](images/glitch.gif)
 
 Regarding FI, anything capable of pulling a voltage line low or injecting a clock pulse __can__ work. However, depending on your target and attack, you might need advanced timing or protocol triggering, where tools such as the ChipWhisperer become very handy. When learning the fundamentals of fault injection, you cannot go wrong with an introductory ChipWhisperer kit. Their materials and example targets explain the principles behind fault injection and provide a tested, repeatable learning environment. I can't recommend their materials highly enough. If the chipwhisperer tools are too expensive for your budget, however, there are other tools that folks have used in the past. I have included the tools in the table below and provided some example blog posts that utilize them to help get you started. We have also published a blog post [here](https://voidstarsec.com/blog/replicant-part-1) as an introduction to FI. 
 
@@ -18,7 +18,7 @@ Regarding FI, anything capable of pulling a voltage line low or injecting a cloc
 | ChipShouter PicoEMP | $60.00 | [Link](https://store.newae.com/chipshouter-picoemp) | [EMFI Made easy with PicoEMP](https://embeddedonlineconference.com/session/Electromagnetic_Fault_Injection_Made_Easy_with_PicoEMP) | 
 | ChipWhisperer Lite | $315.00 | [Link](https://www.newae.com/products/NAE-CW1173) | [Replicant: Reproducing a FI Attack on the Trezor One](https://voidstarsec.com/blog/replicant-part-1) | 
 | ChipWhisperer Husky | $549.00 | [Link](https://store.newae.com/chipwhisperer-husky/) | [RL78 Glitching (done by Colin O'Flynn)](https://cfp.recon.cx/2023/talk/PNCTLT/) |  
-| ChipShouter Kit | $4125 | [Link](https://store.newae.com/chipshouter-kit/) | [EMFI for Automotive Safety with ChipShouter](https://www.semanticscholar.org/paper/NAEAN-0011-%3A-Electromagnetic-Fault-Injection-(-EMFI/6be67347ede5c88b5969e163ee57adbc0ebe5b24) |
+| ChipShouter Kit | $4125.00 | [Link](https://store.newae.com/chipshouter-kit/) | [EMFI for Automotive Safety with ChipShouter](https://media.newae.com/appnotes/NAE0011_Whitepaper_EMFI_For_Automotive_Safety_Security_Testing.pdf) |
 
 There are also plenty of great talks that you can find online about fault injection; I've listed some of my favorites below:
 
