@@ -7,7 +7,6 @@ One of the most common questions that I get during a [training](https://voidstar
 
 The following document aims to outline the basic requirements for well rounded embedded systems laboratory. 
 
-
 In this list, I will focus on devices that I and a few others regularly use for hardware pen testing and research. I will list a range of devices covering various budgets. 
 
 It should be noted that the following recommendations are my opinion, and **none** of the links below are affiliate links or anything of the sort. This guide is to help people build out their first lab, not make money. This guide will also be maintained at the GitHub repository located [here](https://github.com/voidstarsec/hw-hacking-lab) - please submit your pull requests with your suggestions and favorite tools!
