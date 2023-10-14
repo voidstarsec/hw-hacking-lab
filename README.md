@@ -14,7 +14,6 @@ It should be noted that the following recommendations are my opinion, and **none
 
 ## WIP Sections / TODO
 
-- [ ] Fault Injection
 - [ ] RF
 
 ## Contributions / Pull Requests
