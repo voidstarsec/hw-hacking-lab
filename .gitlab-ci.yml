@@ -1,0 +1,19 @@
+image: ruby:2.7.0
+
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
+  BUNDLE_GEMFILE: .env-files/Gemfile.gitlab
+
+before_script:
+  - bundle install --gemfile=.env-files/Gemfile.gitlab
+
+pages:
+  stage: deploy
+  script:
+  - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
