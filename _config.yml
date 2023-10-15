@@ -3,7 +3,7 @@ remote_theme: Drassil/git-wiki-theme@master
 title: "VoidStar Security Wiki"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
 # with your folder name, otherwise leave it empty
-baseurl: "/git-wiki-skeleton"
+baseurl: "/hw-hacking-lab"
 # (string) Description of your wiki
 description:
 # (boolean) disable edit functionalities (edit/delete/add pages)
