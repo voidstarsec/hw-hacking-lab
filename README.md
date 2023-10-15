@@ -16,7 +16,7 @@ Welcome to the VoidStar Security LLC Research and Blog Wiki, here you find previ
 
 This wiki/blog is the combination of VSS's hardware security research as well as personal side projects done to illustrate the basics of hardware hacking and firmware reverse engineering. 
 
-- [VSS Guide to Building Your First Hardware Lab](./hw-hacking-lab/vss-lab-guide)
+- [VSS Guide to Building Your First Hardware Lab](https://voidstarsec.com/hw-hacking-lab/vss-lab-guide)
 - [VSS Research Blog](https://voidstarsec.com/blog)
 - [Fun Hacks / Old Posts](https://wrongbaud.github.io)
 	- [Reverse Engineering a Street Fighter 2 Cabinet](https://wrongbaud.github.io/sf-slides)
