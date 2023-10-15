@@ -22,7 +22,7 @@ An excellent introductory scope can be purchased for ~$500; all big manufacturer
 
 **Note:** Many modern oscilloscopes can be upgraded via software. For example, many will have built-in logic analyzers and signal decoders. These will come at an extra cost; decoders are typically $100-$400, depending on the protocol, and other software upgrades can be purchased to unlock things like faster sample rates and increased bandwidth, etc. It's easy for a 2-4 thousand dollar oscilloscope purchase to turn into a ten thousand dollar purchase once all the upgrades and add-ons have been included. 
 
-### Example Specifications: Rigol
+## Example Specifications: Rigol
 
 Below are some specifications from the RIGOL MSO5000 line:
 
@@ -30,7 +30,7 @@ Below are some specifications from the RIGOL MSO5000 line:
 
 The MSO5354 is an excellent deal for this line, especially considering the 350MHz bandwidth and the 8GSa/s sampling rate. I have this in my lab and use it regularly. 
 
-### Example Specifications: Siglent
+## Example Specifications: Siglent
 
 Here is a similar specification table from the SIGLENT SDS2000 line:
 

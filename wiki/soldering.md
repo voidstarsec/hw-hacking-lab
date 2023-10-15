@@ -50,15 +50,15 @@ This kit includes an arm, allowing for hands-free operation, as well as a prehea
 
 The full table of all of the recommended kits can be seen below:
 
-| Item | Price | Link | 
-| ---- | ---- | ---- | 
-| Soiiw Microcomputer Soldering Preheating station | $67.99 | [Link](https://www.amazon.com/Soiiw-Microcomputer-Soldering-Preheating-200X200mm/dp/B082H12PPT) | 
-| KSGER T12 Soldering Station | $69.99 | [Link](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5) | 
-| JBC CDS Soldering Station | $595 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1580#CDS) | 
-| JBC DDPE 2-Tool Station | $1700 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1630#DDPE) | 
-| QUICK 957D Rework Station | $125.00 | [Link](https://www.amazon.com/Quick-957DW-Hot-Station-Watt/dp/B074SBH4G5) | 
-| JBC TESE | $2,690 | [Link](https://www.jbctools.com/tese-b-precision-hot-air-station-product-1750.html) | 
-| SRS System SMD Rework Station | $5,750 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1454#SRS)  | 
+| Item | Price | Link | Description | 
+| ---- | ---- | ---- | ---- | 
+| Soiiw Microcomputer Soldering Preheating station | $67.99 | [Link](https://www.amazon.com/Soiiw-Microcomputer-Soldering-Preheating-200X200mm/dp/B082H12PPT) | Low cost pre-heating set up for BGA rework | 
+| KSGER T12 Soldering Station | $69.99 | [Link](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5) | Introductory soldering iron with interchangable tips | 
+| QUICK 957D Rework Station | $125.00 | [Link](https://www.amazon.com/Quick-957DW-Hot-Station-Watt/dp/B074SBH4G5) | Low-cost hot air rework station | 
+| JBC CDS Soldering Station | $595 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1580#CDS) | Mid range JBC soldering station |
+| JBC DDPE 2-Tool Station | $1700 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1630#DDPE) | JBC station that allows for multiple tools active and includes micro-tweezers and a T210 precision handle | 
+| JBC TESE | $2,690 | [Link](https://www.jbctools.com/tese-b-precision-hot-air-station-product-1750.html) | High end hot air rework station with multiple suction adapters | 
+| SRS System SMD Rework Station | $5,750 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1454#SRS)  | Full SMD rework station, including an manueverable arm and preheater | 
 
 ## Soldering: Practice Kits
 
