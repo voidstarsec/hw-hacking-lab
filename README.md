@@ -1,4 +1,4 @@
-# VoidStar Security Hardware Sec Wiki
+# VoidStar Security Wiki
 
 <p align="center">
   <img src="assets/images/logo.png" alt="VSS Logo" style="width:400px"/>
@@ -17,7 +17,7 @@ Welcome to the VoidStar Security LLC Research and Blog Wiki, here you find previ
 This wiki/blog is the combination of VSS's hardware security research as well as personal side projects done to illustrate the basics of hardware hacking and firmware reverse engineering. 
 
 - VSS Guide to Building Your First Hardware Lab
-- VSS Reaarch Blog
+- VSS Research Blog
 - Fun Hacks / Old Posts
 - Ghidra Resources
 - Hardware Hacking 101: A RoadMap
@@ -25,7 +25,6 @@ This wiki/blog is the combination of VSS's hardware security research as well as
 # Contributions
 
 Contributions to write-ups and wiki pages are more than welcome. Simply make a pull request on the relevant file that you wish to edit and we'll review it! Some of our previous contributors can be seen below:
-
 
 - [Jeremy Hong](https://twitter.com/ElectronicsbyJH)
 - [Arsenio Menendez](https://twitter.com/Ascii211)
