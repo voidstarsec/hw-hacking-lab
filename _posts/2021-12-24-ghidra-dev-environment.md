@@ -1,5 +1,6 @@
 ---
 published: true
+title: "Extending Ghidra Part 1: Setting up a Development Environment"
 ---
 
 # Extending Ghidra Part 1: Setting up a Development Environment
