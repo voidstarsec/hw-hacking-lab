@@ -1,5 +1,6 @@
 ---
 published: true
+title: "Introduction to Embedded Reverse Engineering"
 ---
 
 # Introduction to Embedded Reverse Engineering 

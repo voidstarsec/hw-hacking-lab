@@ -1,8 +1,9 @@
 ---
 published: true
+title: "Replicant: Reproducing a Fault Injection Attack on the Trezor One"
 ---
 
-# Replicant: Reproducint a Fault Injection Attach on the Trezor One
+# Replicant: Reproducing a Fault Injection Attack on the Trezor One
 
 # Overview
 

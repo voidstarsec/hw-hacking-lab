@@ -1,5 +1,6 @@
 ---
 published: true
+title: "On the Road: Our first onsite training of the year"
 ---
 
 # On the Road: Our first onsite training of the year

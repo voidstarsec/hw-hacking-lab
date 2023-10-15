@@ -1,5 +1,6 @@
 ---
 published: true
+title: "Intro to Embedded RE: UART Discovery and Firmware Extraction via UBoot"
 ---
 
 
