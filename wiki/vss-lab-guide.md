@@ -13,6 +13,7 @@
 {% include_relative flash-extraction.md %}
 {% include_relative single-board-computers.md %}
 {% include_relative fault-injection.md %}
+{% include_relative rf.md %}
 {% include_relative other.md %}
 {% include_relative conclusion.md %}
 {% endcapture %}
