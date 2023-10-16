@@ -32,3 +32,7 @@ Contributions to write-ups and wiki pages are more than welcome. Simply make a p
 - [Stu Kennedy](https://twitter.com/NoobieDog)
 - [Ian Hanschen](https://twitter.com/furan)
 - [Dreg](https://twitter.com/therealdreg)
+
+# Contact
+
+If you are interested in consulting or training, don't hesitate to [contact us](https://voidstarsec.com/index.html#contact). For updates on new courses, blog posts and resources, sign up for our mailing list [here](http://eepurl.com/hSl31f) 
