@@ -14,7 +14,7 @@ Welcome to the VoidStar Security LLC Research and Blog Wiki, here you find previ
 
 # Getting Started
 
-On the sidebar you your left you will find links to our resources and writeups.
+On the sidebar you will find links to our resources and writeups.
 
 If you are new to hardware hacking and reverse engineering, check out our [guide to building a hardware hacking lab](https://voidstarsec.com/hw-hacking-lab/vss-lab-guide)
 
