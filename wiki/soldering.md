@@ -17,7 +17,7 @@ Ideally, you want something with adjustable temperature and removable tips; belo
 
 - [KSGER T12 Soldering Station](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5)
 
-For a portable option, the [TS-100](https://www.ifixit.com/products/ts100-soldering-iron) or [TS-101](https://rotorriot.com/products/ts101-portable-soldering-iron-programmable-smart-iron) is an excellent choise. These are great for travel, have interchangable tips and are relatively low cost. 
+For a portable option, the [TS-100](https://www.ifixit.com/products/ts100-soldering-iron) or [TS-101](https://rotorriot.com/products/ts101-portable-soldering-iron-programmable-smart-iron) is an excellent choice. These are great for travel, have interchangable tips and are relatively low cost. 
 
 ### High Cost
 
