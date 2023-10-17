@@ -17,6 +17,8 @@ Ideally, you want something with adjustable temperature and removable tips; belo
 
 - [KSGER T12 Soldering Station](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5)
 
+For a portable option, the [TS-100](https://www.ifixit.com/products/ts100-soldering-iron) or [TS-101](https://rotorriot.com/products/ts101-portable-soldering-iron-programmable-smart-iron) is an excellent choise. These are great for travel, have interchangable tips and are relatively low cost. 
+
 ### High Cost
 
 For high-end soldering or jobs that require you to solder to smaller components, such as 0402 components, a  JBC CDS station with intelligent heat management and sleep/hibernation modes can't be beaten. This is the station that I have used for quite a while now, and it has been highly reliable and easy to maintain. With this station, you can also get tweezer tips for SMD components, making these jobs much more manageable. It also can be connected to other JBC accessories, such as a fume extractor and other JBC handles. 
@@ -52,6 +54,7 @@ The full table of all of the recommended kits can be seen below:
 
 | Item | Price | Link | Description | 
 | ---- | ---- | ---- | ---- | 
+| TS-100 | $54.99 | [Link](https://www.ifixit.com/products/ts100-soldering-iron) | Low cost, portable soldering iron | 
 | Soiiw Microcomputer Soldering Preheating station | $67.99 | [Link](https://www.amazon.com/Soiiw-Microcomputer-Soldering-Preheating-200X200mm/dp/B082H12PPT) | Low cost pre-heating set up for BGA rework | 
 | KSGER T12 Soldering Station | $69.99 | [Link](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5) | Introductory soldering iron with interchangable tips | 
 | QUICK 957D Rework Station | $125.00 | [Link](https://www.amazon.com/Quick-957DW-Hot-Station-Watt/dp/B074SBH4G5) | Low-cost hot air rework station | 
