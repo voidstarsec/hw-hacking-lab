@@ -1,3 +1,5 @@
+# VSS: Beginners Guide to Building a Hardware Hacking Lab
+
 # [Introduction](./intro)
 
 One of the most common questions that I get during a [training](https://voidstarsec.com/training) is:
