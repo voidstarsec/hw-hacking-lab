@@ -12,6 +12,14 @@
 
 Welcome to the VoidStar Security LLC Research and Blog Wiki, here you find previous blog entries, wiki articles on hardware hacking and other hardware security related content. 
 
+# Getting Started
+
+On the sidebar you your left you will find links to our resources and writeups.
+
+If you are new to hardware hacking and reverse engineering, check out our [guide to building a hardware hacking lab](https://voidstarsec.com/hw-hacking-lab/vss-lab-guide)
+
+If you are interested in learning more through concrete examples of hardware hacking check out the two blogs linked from the sidebar
+
 # Content
 
 This wiki/blog is the combination of VSS's hardware security research as well as personal side projects done to illustrate the basics of hardware hacking and firmware reverse engineering. 
