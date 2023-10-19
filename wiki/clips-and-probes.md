@@ -1,6 +1,6 @@
 # [Clips / Jumpers / Probes](clips-and-probes)
 
-Sometimes, we have to connect to specific pads or pins to analyze the signal on our target device; but that does not always require soldering and removing components. Probing test pads and reading flash chips in-circuit can significantly reduce the debugging/analysis time when performing firmware patches or testing PoCs. Below are some helpful items that I use when soldering/connecting to new targets. The PCBite kit is handy as the fine-tip probes will often save you from needing to solder to test pads when performing initial analysis. 
+Sometimes, we have to connect to specific pads or pins to analyze the signal on our target device, but that does not always require soldering and removing components. Probing test pads and reading flash chips in-circuit can significantly reduce the debugging/analysis time when performing firmware patches or testing PoCs. Below are some helpful items that I use when soldering/connecting to new targets. The PCBite kit is handy as the fine-tip probes will often save you from needing to solder to test pads when performing initial analysis. 
 
 | Item | Price | Link | Description | 
 | ---- | ---- | ---- | ---- |

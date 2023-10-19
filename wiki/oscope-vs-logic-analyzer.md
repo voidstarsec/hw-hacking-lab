@@ -2,7 +2,7 @@
 
 Another common question that often comes up as we review the tools in class is
 
-> What is an oscilloscope for, and what is a logic analyzer used for? Don't they both measure signals?
+> What is an oscilloscope used for, and what is a logic analyzer used for? Don't they both measure signals?
 
 While the short answer is yes, they both measure electronic signals and visualize them for human consumption; there are a few key differences. 
 
@@ -11,7 +11,7 @@ While the short answer is yes, they both measure electronic signals and visualiz
 2. Logic analyzers are used to analyze **digital signals** and convert high/low voltage pulses into a sequence of 0s and 1s that we can attempt to interpret.  
 
 
-So, how do we choose what tool to use? For example, let's say we are measuring a voltage source on a particular target we are trying [glitch](https://voidstarsec.com/blog/replicant-part-1). If we want to monitor the fluctuations of the voltage line, we should use an oscilloscope. The oscilloscope will let us observe the **voltage over time**, allowing us to see the small period where the voltage drops to a low value and then returns to normal. See the image below, where the purple line represents the voltage line being glitched:
+So, how do we choose what tool to use? For example, let's say we are measuring a voltage source on a particular target we are trying to [glitch](https://voidstarsec.com/blog/replicant-part-1). If we want to monitor the fluctuations of the voltage line, we should use an oscilloscope. The oscilloscope will let us observe the **voltage over time**, allowing us to see the small period where the voltage drops to a low value and then returns to normal. See the image below, where the purple line represents the voltage line being glitched:
 
 ![Glitch!](https://voidstarsec.com/blog/assets/images/glitch/scope/SDS00001.png) 
 
@@ -26,7 +26,7 @@ For an example of when we might use a logic analyzer, let's revisit the oscillos
 
 ![Image](https://i.stack.imgur.com/Jpcg1.jpg)
 
-Notice that there are not nearly as many strange shapes or fluctuations in this signal; the line either appears at a high or low voltage at any given time. While some oscilloscopes can decode digital signals like this, they often are limited by how much memory they can use for a capture. So that means that if you're trying to capture UART traffic on a Linux system that takes 60 seconds to boot, you would need a large amount of memory / a costly scope. Also, if you wanted to extract the data from the stream or try to decode it using custom plugins, getting access to the digital signal is a headache (**Note** It is possible, but Logic Analyzers greatly simplify this process for us). This is a perfect use case for our logic analyzer if we want to extract the **data** being encoded in this **digital signal**.
+Notice that there are not nearly as many strange shapes or fluctuations in this signal; the line either appears at a high or low voltage at any given time. While some oscilloscopes can decode digital signals like this, they often are limited by how much memory they can use for a capture. So that means that if you're trying to capture UART traffic on a Linux system that takes 60 seconds to boot, you would need a large amount of memory / a costly scope. Also, if you wanted to extract the data from the stream or try to decode it using custom plugins, getting access to the digital signal is a headache (**Note** It is possible, but logic analyzers greatly simplify this process for us). This is a perfect use case for our logic analyzer if we want to extract the **data** being encoded in this **digital signal**.
 
 The Logic analyzer can sample for much longer because it samples a signal, reports whether the sample is high or low, and does not report back the exact values in between. Note that what defines high or low can often be configured within your logic analyzer software, but the analyzer will still report back either a 0 or 1. Because the logic analyzer is not concerned with all the values in between, it requires significantly less memory to capture over long periods. 
 

@@ -7,7 +7,7 @@ Let's say you identified a fluctuating voltage sequence with your multimeter and
 We will need a Logic Analyzer to make more sense of this signal capture. Logic analyzers are used when analyzing digital signals; they can take sequences of high and low voltages and translate them into a stream of logical 1s and 0s. This stream of 1s and 0s can then be analyzed and decoded via software to display packet structures and more user-friendly data to the user. When choosing a logic analyzer, we need to consider the following:
 
 - Channel Count - How many channels can be analyzed at once?
-- Sampling Rate - How quickly can we sample data
+- Sampling Rate - How quickly can we sample data?
 - Hardware Sampling Depth / Memory Depth - How long can we sample?
 - Threshold Voltages - What voltage ranges are compatible with this device?
 

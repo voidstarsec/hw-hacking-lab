@@ -1,8 +1,8 @@
 # [Workbench](./workbench)
 
-First and foremost, you need a place to perform your work. Depending on your needs this might be a small section on your desk, or you may need an entirely seperate workbench. When it comes to choosing a workbench, you'll quickly find that you can spend a _lot_ of money on a high end standing desk, especially if you're looking for a larger one. One place you might consider looking is Home Depot / Lowes, I am a big fan of their Husky standing workbench and am currently using two of them in my office. 
+First and foremost, you will require a place to perform your work. Depending on your needs this might be a small section on your desk, or you may want an entirely separate workbench. When it comes to choosing a workbench, you'll quickly find that you can spend a _lot_ of money on a high end standing desk, especially if you're looking for a larger one. One place you might consider looking is Home Depot / Lowes, I am a big fan of their Husky standing workbench and am currently using two of them in my office. 
 
-If you're looking for something more traditional, I also have built a handful of workbench setups using IKEA tabletops and legs, this is a very popular option for workstations.
+If you're looking for something more traditional, I have also built a handful of workbench setups using IKEA tabletops and legs, this is a very popular option for workstations.
 
 | Item | Price | Link | 
 | ---- | ---- | ---- | 

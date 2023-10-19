@@ -1,13 +1,13 @@
 # [Oscilloscopes](./oscilloscope)
 
-While multimeters help us measure various signals on our target device, an Oscilloscope can help us capture and visualize these measurements. When selecting a scope, you need to consider what the use case will be. Will you be doing differential power analysis or power trace captures? Or are you more interested in capturing other types of analog waveforms over a longer period? The main variables to look at when selecting an oscilloscope are:
+While multimeters help us measure various signals on our target device, an oscilloscope can help us capture and visualize these measurements. When selecting a scope, you need to consider what the use case will be. Will you be doing differential power analysis or power trace captures? Or are you more interested in capturing other types of analog waveforms over a longer period? The main variables to look at when selecting an oscilloscope are:
 
 - **Channel Count** - How many channels can you capture on
 - **Memory Depth** - This is how long_ you can capture for
 - **Sample Rate** - How fast the analog signal is sampled 
 - **Bandwidth** -Maximum frequency of an input signal that can be passed through the analog front end (probe)
 
-With enough bandwidth, you avoid capturing what appears to be a distorted signal, and with too slow of a sample rate, you risk data loss. 
+Without enough bandwidth, you will capturing what appears to be a distorted signal, and with too slow of a sample rate, you risk data loss. 
 
 **Remember**: According to the [Nyquist sampling theorem](https://www.sciencedirect.com/topics/engineering/nyquist-theorem#:~:text=Nyquist's%20theorem%20states%20that%20a,oscilloscope%20bandwidth%20would%20be%20typical.) sampling rate should be at least 2x the frequency of your target signal **at a minimum**!
 
@@ -20,7 +20,7 @@ An excellent introductory scope can be purchased for ~$500; all big manufacturer
 | SDS2000X | $2,999 | [Link](https://siglentna.com/product/sds2354x-plus/) | High bandwidth, 2GSa/s sampling rate, large memory depth, HDMI out, SCPI compatible |
 | SDS6204A | $60,000 + | [Link](https://siglentna.com/digital-oscilloscopes/sds6000a-digital-storage-oscilloscope/) | Extremely high capture rate and bandwidth, decoders and other features can bring the price to $100k easily |
 
-**Note:** Many modern oscilloscopes can be upgraded via software. For example, many will have built-in logic analyzers and signal decoders. These will come at an extra cost; decoders are typically $100-$400, depending on the protocol, and other software upgrades can be purchased to unlock things like faster sample rates and increased bandwidth, etc. It's easy for a 2-4 thousand dollar oscilloscope purchase to turn into a ten thousand dollar purchase once all the upgrades and add-ons have been included. 
+**Note:** Many modern oscilloscopes can be upgraded via software. For example, many will have built-in logic analyzers and signal decoders. These will come at an extra cost; decoders are typically $100-$400, depending on the protocol, and other software upgrades can be purchased to unlock things like faster sample rates and increased bandwidth, etc. It's easy for a 2k-4k oscilloscope purchase to turn into a 10k purchase once all the upgrades and add-ons have been included. 
 
 ## Example Specifications: Rigol
 

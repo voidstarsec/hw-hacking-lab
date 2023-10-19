@@ -1,6 +1,6 @@
 # [Soldering](./soldering)
 
-Whether you are tearing down a new router or looking for a new target to perform fault injection, you will need to solder at some point during your hardware hacking journey. Soldering is the process of joining metal surfaces with "solder"; this creates a conductive connection between the two soldered points. Soldering is useful when populating unused debug pin headers or connecting wires to points on your target circuit board that you wish to interact with. 
+Whether you are tearing down a new router or looking for a new target to perform fault injection, you will need to solder at some point during your hardware hacking journey. Soldering is the process of joining metal surfaces with "solder"; creating a conductive connection between the two soldered points. Soldering is useful when populating unused debug pin headers or connecting wires to points on your target circuit board that you wish to interact with. 
 
 ## Soldering Irons
 
@@ -13,11 +13,11 @@ Ideally, you want an iron with adjustable temperature and removable tips. These 
 
 ### Low Cost
 
-Ideally, you want something with adjustable temperature and removable tips; below is a very solid starter kit from Amazon, which makes for a good beginner iron. Before buying a more expensive iron, use this iron to learn proper [care and maintenance](https://forum.digikey.com/t/how-to-clean-tin-and-maintain-soldering-iron-tip).
+Below is a very solid starter kit from Amazon, which makes for a good beginner iron. Before buying a more expensive iron, use this iron to learn proper [care and maintenance](https://forum.digikey.com/t/how-to-clean-tin-and-maintain-soldering-iron-tip).
 
 - [KSGER T12 Soldering Station](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5)
 
-For a portable option, the [TS-100](https://www.ifixit.com/products/ts100-soldering-iron) or [TS-101](https://rotorriot.com/products/ts101-portable-soldering-iron-programmable-smart-iron) is an excellent choice. These are great for travel, have interchangable tips and are relatively low cost. 
+For a portable option, the [TS-100](https://www.ifixit.com/products/ts100-soldering-iron) or [TS-101](https://rotorriot.com/products/ts101-portable-soldering-iron-programmable-smart-iron) is an excellent choice. These are great for travel, have interchangeable tips and are relatively low cost. 
 
 ### High Cost
 
@@ -36,7 +36,7 @@ Hot air stations and hot plates can both be used when doing SMD rework. Hot plat
 
 ### Low Cost
 
-Introductory hot plates are releatively low cost, the [Soiiw Microcomputer Soldering Preheating station](https://www.amazon.com/Soiiw-Microcomputer-Soldering-Preheating-200X200mm/dp/B082H12PPT) is a great place to start as it has built in temperature control and display (helpful for letting others in the lab know that the plate is on!). 
+Introductory hot plates are relatively low cost, the [Soiiw Microcomputer Soldering Preheating station](https://www.amazon.com/Soiiw-Microcomputer-Soldering-Preheating-200X200mm/dp/B082H12PPT) is a great place to start as it has built-in temperature control and display (helpful for letting others in the lab know that the plate is on!). 
 
 If you are going for a lower-cost hot air rework station, there are plenty on Amazon. I have used the YIHUA 959D and have had no issues with it. Others have recommended the [QUICK 957D Rework Station](https://www.amazon.com/Quick-957DW-Hot-Station-Watt/dp/B074SBH4G5), which also has excellent reviews!
 
@@ -56,7 +56,7 @@ The full table of all of the recommended kits can be seen below:
 | ---- | ---- | ---- | ---- | 
 | TS-100 | $54.99 | [Link](https://www.ifixit.com/products/ts100-soldering-iron) | Low cost, portable soldering iron | 
 | Soiiw Microcomputer Soldering Preheating station | $67.99 | [Link](https://www.amazon.com/Soiiw-Microcomputer-Soldering-Preheating-200X200mm/dp/B082H12PPT) | Low cost pre-heating set up for BGA rework | 
-| KSGER T12 Soldering Station | $69.99 | [Link](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5) | Introductory soldering iron with interchangable tips | 
+| KSGER T12 Soldering Station | $69.99 | [Link](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5) | Introductory soldering iron with interchangeable tips | 
 | QUICK 957D Rework Station | $125.00 | [Link](https://www.amazon.com/Quick-957DW-Hot-Station-Watt/dp/B074SBH4G5) | Low-cost hot air rework station | 
 | JBC CDS Soldering Station | $595 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1580#CDS) | Mid range JBC soldering station |
 | JBC DDPE 2-Tool Station | $1700 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1630#DDPE) | JBC station that allows for multiple tools active and includes micro-tweezers and a T210 precision handle | 
@@ -65,7 +65,7 @@ The full table of all of the recommended kits can be seen below:
 
 ## Soldering: Practice Kits
 
-These kits are a great way to get comfortable soldering smaller devices and components. One thing I like to recommend is to solder it, desolder it, and then solder it again, this will give you practice with removing parts and adding them!
+These kits are a great way to get comfortable soldering smaller devices and components. One thing I like to recommend is to solder, desolder, and then solder  again. This will give you practice with removing parts and adding them!
 
 | Item | Price | Link | 
 | ---- | ---- | ---- | 

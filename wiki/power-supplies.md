@@ -1,6 +1,6 @@
 # [Power Supplies](./power-supplies)
 
-When picking a power supply, you need to consider the power requirements of your targets. Be sure to review the voltage and current limitations and choose an appropriate supply based on the targets you will analyze. Some power supplies have options Over-Current Protection (OCP), which is a feature that prevents a power supply from providing more current than it can handle. Some power supplies will also include a [Remote Sense](https://www.ti.com/lit/an/slyt467/slyt467.pdf?ts=1696813801504&ref_url=https%253A%252F%252Fwww.google.com%252F) feature that is used to regulate the output voltage at the target load. This compensates for the voltage drop across the cables connecting the power supply to the target load. 
+When picking a power supply, you need to consider the power requirements of your targets. Be sure to review the voltage and current limitations and choose an appropriate supply based on the targets you will analyze. Some power supplies have options like Over-Current Protection (OCP), which is a feature that prevents a power supply from providing more current than it can handle. Some power supplies will also include a [Remote Sense](https://www.ti.com/lit/an/slyt467/slyt467.pdf?ts=1696813801504&ref_url=https%253A%252F%252Fwww.google.com%252F) feature that is used to regulate the output voltage at the target load. This compensates for the voltage drop across the cables connecting the power supply to the target load. 
 
 | Item | Price | Link | Usage | 
 | ---- | ---- | ---- | ---- | 
