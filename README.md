@@ -40,6 +40,7 @@ Contributions to write-ups and wiki pages are more than welcome. Simply make a p
 - [Stu Kennedy](https://twitter.com/NoobieDog)
 - [Ian Hanschen](https://twitter.com/furan)
 - [Dreg](https://twitter.com/therealdreg)
+- [mncoppola](https://github.com/mncoppola)
 
 # Contact
 
