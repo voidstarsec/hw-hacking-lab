@@ -17,6 +17,8 @@ Below is a very solid starter kit from Amazon, which makes for a good beginner i
 
 - [KSGER T12 Soldering Station](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5)
 
+Two other solid options for a beginner iron (at a slightly higher price point) are the [Hakko FX888D](https://www.amazon.com/Hakko-FX888D-23BY-Digital-Soldering-Station/dp/B00ANZRT4M) and [Weller WE1010NA](https://www.amazon.com/Weller-Digital-Soldering-Station-WE1010NA/dp/B077JDGY1J). The WE1010NA is the successor to the venerable Weller WES51, which has since been discontinued.
+
 For a portable option, the [TS-100](https://www.ifixit.com/products/ts100-soldering-iron) or [TS-101](https://rotorriot.com/products/ts101-portable-soldering-iron-programmable-smart-iron) is an excellent choice. These are great for travel, have interchangeable tips and are relatively low cost. 
 
 ### High Cost
@@ -57,6 +59,7 @@ The full table of all of the recommended kits can be seen below:
 | TS-100 | $54.99 | [Link](https://www.ifixit.com/products/ts100-soldering-iron) | Low cost, portable soldering iron | 
 | Soiiw Microcomputer Soldering Preheating station | $67.99 | [Link](https://www.amazon.com/Soiiw-Microcomputer-Soldering-Preheating-200X200mm/dp/B082H12PPT) | Low cost pre-heating set up for BGA rework | 
 | KSGER T12 Soldering Station | $69.99 | [Link](https://www.amazon.com/KSGER-Soldering-Electronic-Controller-Equipments/dp/B0974F1VQ5) | Introductory soldering iron with interchangeable tips | 
+| Sparkfun 8508D Hot-Air Rework Station | $99.95 | [Link](https://www.sparkfun.com/products/21253) | Low-cost hot air rework station |
 | QUICK 957D Rework Station | $125.00 | [Link](https://www.amazon.com/Quick-957DW-Hot-Station-Watt/dp/B074SBH4G5) | Low-cost hot air rework station | 
 | JBC CDS Soldering Station | $595 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1580#CDS) | Mid range JBC soldering station |
 | JBC DDPE 2-Tool Station | $1700 | [Link](https://www.jbctools.com/catalegfitxa.php?idpro=1630#DDPE) | JBC station that allows for multiple tools active and includes micro-tweezers and a T210 precision handle | 
