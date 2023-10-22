@@ -3,11 +3,11 @@
 While multimeters help us measure various signals on our target device, an oscilloscope can help us capture and visualize these measurements. When selecting a scope, you need to consider what the use case will be. Will you be doing differential power analysis or power trace captures? Or are you more interested in capturing other types of analog waveforms over a longer period? The main variables to look at when selecting an oscilloscope are:
 
 - **Channel Count** - How many channels can you capture on
-- **Memory Depth** - This is how long_ you can capture for
+- **Memory Depth** - This is how long you can capture for
 - **Sample Rate** - How fast the analog signal is sampled 
 - **Bandwidth** -Maximum frequency of an input signal that can be passed through the analog front end (probe)
 
-Without enough bandwidth, you will capturing what appears to be a distorted signal, and with too slow of a sample rate, you risk data loss. 
+Without enough bandwidth, you will capture what appears to be a distorted signal, and with too slow of a sample rate, you risk data loss. 
 
 **Remember**: According to the [Nyquist sampling theorem](https://www.sciencedirect.com/topics/engineering/nyquist-theorem#:~:text=Nyquist's%20theorem%20states%20that%20a,oscilloscope%20bandwidth%20would%20be%20typical.) sampling rate should be at least 2x the frequency of your target signal **at a minimum**!
 
